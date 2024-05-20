@@ -1,8 +1,8 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Image from "next/image";
 import { ArrowRight, Check, Star } from "lucide-react";
-import Phone from "../components/Phone";
-// import Phone from '@/components/Phone'
+import Phone from "@/components/Phone";
+import Proposition from "@/components/section/Proposition_section";
 
 export default function Home() {
   return (
@@ -106,6 +106,9 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
       </section>
+
+      {/* value proposition section */}
+      <Proposition />
     </div>
   );
 }
