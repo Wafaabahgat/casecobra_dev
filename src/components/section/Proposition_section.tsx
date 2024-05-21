@@ -2,7 +2,7 @@ import { FC } from "react";
 import User_riew from "../User_riew";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import { Icons } from "../Icons";
-import { Reviews } from "./review/Reviews";
+import { Reviews } from "./reviews/Reviews";
 
 interface Proposition_sectionProps {}
 
